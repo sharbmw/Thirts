@@ -29,13 +29,17 @@
             text-align: center;
         }
 
+        /* Bigger, bolder title */
         h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 3.5rem;
+            font-size: clamp(3.6rem, 6vw, 5.4rem);
+            line-height: 1.05;
             margin: 0;
-            background: linear-gradient(to right, #818cf8, C084FC_1);
+            letter-spacing: -0.02em;
+            background: linear-gradient(to right, #818cf8, #c084fc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.45));
         }
 
         .subtitle {
@@ -157,6 +161,24 @@
             <div class="product-info">
                 <h2 class="product-title">Schrödinger's PWM</h2>
                 <p class="product-desc">Is the LED on or off? The ultimate shirt for engineers and physics enthusiasts who live in the duty cycle.</p>
+            </div>
+        </div>
+
+        <!-- New image 1 -->
+        <div class="product-card">
+            <img src="5CD8612C-FEB2-4A88-88D5-58C5D52CAE3C.jpeg" alt="Scam Hook Fish Design" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">Bait &amp; Switch</h2>
+                <p class="product-desc">A cheeky underwater scene that screams “too good to be true”.</p>
+            </div>
+        </div>
+
+        <!-- New image 2 -->
+        <div class="product-card">
+            <img src="2A8D006C-E151-4418-8F26-71B817A4BA29.jpeg" alt="Cargo Truck Ocean Design" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">Ocean Cargo</h2>
+                <p class="product-desc">Bright, bold, and a little surreal - a rolling cargo run through the waves.</p>
             </div>
         </div>
     </div>
